@@ -740,6 +740,7 @@ upright_screen\default=true
 * To install New 3DS system software, you need to download Old 3DS software first, this is required for some situations (such as Pretendo Network), so it's best to download both.
 * The system used does not matter in this instance, you can download New 3DS software with an old 3DS, and vice versa.
 
+---
 1. Take out your SD Card and plug it into your PC.
 
 2. Download the Azahar Setup Tool from the respective GitHub page, and place it in your cia or 3ds folder on the SD card. [https://github.com/azahar-emu/ArticSetupTool/releases](https://github.com/azahar-emu/ArticSetupTool/releases)
@@ -758,6 +759,8 @@ upright_screen\default=true
 7. Once successfully updated, confirm the update.
 
 You should now have your system files ready to go.
+
+
 ---
 
 ### How to Set Up your Nintendo Network ID
@@ -765,6 +768,7 @@ You should now have your system files ready to go.
 * Do note this process may make you unable to access certain features of Pretendo Network, such as Miiverse.
 * This process requires atleast Old 3DS system software files, if you have not already done so, you can do so with the instructions in the [How To Set Up System Files](#how-to-set-up-system-files) section.
 
+---
 1. Download ThreeSD from the respective GitHub page and for your OS: [https://github.com/zhaowenlan1779/threeSD/releases](https://github.com/zhaowenlan1779/threeSD/releases)
 
 2. Insert your 3DS SD Card into your computer and in the dist folder of the ThreeSD zip, copy the threeSDDumper.gm9 into your gm9/scripts folder on your SD Card. Eject the SD Card and put it back into your Nintendo 3DS.
@@ -800,6 +804,7 @@ After following the prompts, you should now have access to the Nintendo EShop or
 * This process requires both the old and New 3DS system software files, if you have not already done so, you can do so with the instructions in the [How To Set Up System Files](#how-to-set-up-system-files) tab.
 * Do note that if you have a NNID installed for usage of Pokémon Bank or the Nintendo EShop, you may not be able to use features that require an ID via Pretendo Network, which right now, is Miiverse.
 
+---
 1. Download the .cia version of Nimbus from the respective GitHub page. [https://github.com/PretendoNetwork/nimbus/releases](https://github.com/PretendoNetwork/nimbus/releases)
 
 2. Launch Azahar, go to File > Open Azahar Folder, and move both the luma and 3ds folder into the sdmc folder.
@@ -813,4 +818,5 @@ After following the prompts, you should now have access to the Nintendo EShop or
 6. Run the newly installed Nimbus program, and select Pretendo, it should take you back to the Home Menu.
 
 You should now have access to the Pretendo Network.
+ 
 ---
