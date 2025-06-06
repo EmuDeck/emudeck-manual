@@ -195,6 +195,7 @@ If you used Steam ROM Manager previously, re-run Steam ROM Manager after renamin
 
 #### Preface
 
+
 Your ROMs launch using a script created by EmuDeck, `ryujinx.sh` in `Emulation/tools/launchers`.
 
 The script launches the corresponding emulator in `/home/deck/Applications/publish` and **specifically looks** for two traits:
@@ -203,13 +204,23 @@ The script launches the corresponding emulator in `/home/deck/Applications/publi
 - The emulator name at the beginning of the file. Anything after the emulator name is ignored.
   - For example, if the latest version of the emulator is `1351` and you would like to downgrade to `1349`. When you download version `1349`, you could rename it to `EMULATORNAME-1349.AppImage`, and EmuDeck's script will ignore the `-1349` in the file name, allowing you to record which versions of the emulator you are using through the file name.
 
-#### How to Roll Back Ryujinx
+#### How to Roll Back and Manually Install Ryujinx
 
-1. Download the version of the emulator you would like to use from GitHub: [https://github.com/GreemDev/Ryujinx/releases](https://github.com/GreemDev/Ryujinx/releases)
+* SteamOS and Linux
+
+
+1. Download the version of the emulator you would like to use from GitLab: [https://git.ryujinx.app/ryubing/ryujinx/-/releases](https://git.ryujinx.app/ryubing/ryujinx/-/releases)
 2. Move the downloaded emulator from Step 1 to `/home/deck/Applications/publish`
-3. (Optional) Rename or delete the original emulator file
-4. One at a time, right click `Ryujinx` and `Ryujinx.sh`, click `Properties`, click `Permissions`, check `Is executable`
-5. Your games will now launch using the version of the emulator you downloaded
+3. (Optional) Rename or delete the original emulator file if it exists.
+4. Go into the EmuDeck app, Manage Emulators, Ryujinx, and hit "reset configuration" to obtain the correct configurations.
+
+* Windows
+
+1. Download the version of the emulator you would like to use from GitLab: [https://git.ryujinx.app/ryubing/ryujinx/-/releases](https://git.ryujinx.app/ryubing/ryujinx/-/releases)
+2. Move the downloaded emulator and it's associated files to `Users/USERNAME/AppData/Roaming/EmuDeck/Emulators/Ryujinx`, if the Ryujinx folder does not exist, you can create it.
+3. (Optional) Rename or delete the original emulator files if they exist.
+4. Go into the EmuDeck app, Manage Emulators, Ryujinx, and hit "reset configuration" to obtain the correct configurations.
+
 
 ---
 
