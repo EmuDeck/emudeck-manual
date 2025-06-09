@@ -5,7 +5,7 @@
 ---
 
 ## Getting Started with Azahar
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 Azahar is a fairly straight-forward emulator to set up. Place your ROMs in `Emulation/roms/n3ds` or `Emulation/roms/3ds`. Read the [Configuration](#azahar-configuration) section to learn more about Azahar and its folder locations. The [Configuration](#azahar-configuration).
 
@@ -19,7 +19,7 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 ---
 
 ### Azahar Configuration
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 * Type of Emulator: AppImage
 * Config Location: 
@@ -35,14 +35,14 @@ To launch your ROMs in game mode, use Steam ROM Manager and use one of the follo
 
 **Note:** `~/.config` and `~/.local` are hidden folders by default. In Dolphin (file manager), click the hamburger menu in the top right, click `Show Hidden Files` to see these folders.
 
-#### Works With
+Azahar Works With:
 * Steam ROM Manager
 * ES-DE
 
 ---
 
 ### Azahar Folder Locations
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 These file locations apply regardless of where you chose to install EmuDeck (to your internal SSD, to your SD Card, or elsewhere). Some emulator configuration files will be located on the internal SSD as listed below. 
 
@@ -106,7 +106,7 @@ azahar/
 ---
 
 ### How to Update Azahar
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 **How to Update Azahar**
 
@@ -130,7 +130,7 @@ azahar/
 ---
 
 ### Azahar File Formats
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 * .cia
 * .app 
@@ -147,7 +147,7 @@ azahar/
 ***
 
 ### How to Manage DLC and Updates
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 DLC and update files typically are .CIAs, an installable file format through Azahar. These files need to be decrypted. After installing your DLC or updates, you may discard these files. 
 If you have installed your system files and have your NNID sorted, you can also download your DLC/Updates from the Nintendo EShop.
@@ -162,7 +162,7 @@ If you have installed your system files and have your NNID sorted, you can also 
 ---
 
 ### Azahar Hotkeys
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 Azahar comes with a Steam Input profile for Hotkeys. When playing Azahar ROM shortcuts through Steam, the `EmuDeck - Controller Hotkeys` profile will automatically be applied so you may use the below hotkeys. For more info, see [Emulator Button Combinations Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-button-combinations-profile).
 
@@ -180,12 +180,12 @@ When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - F
 ---
 
 ## Azahar Common Issues
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 ---
 
 ### Why did my game suddenly stop working? 
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 If your game ever crashes or you exit the game by pressing the `STEAM` button and clicking `Exit Game` instead of using the hotkey (`Quit` on the left trackpad), you may end up corrupting the shader cache. 
 
@@ -199,13 +199,8 @@ To clear the shader cache:
 
 ---
 
-## Azahar Tips and Tricks
-[Back to the Top](#azahar-table-of-contents)
-
----
-
 ### How to Configure Gyro
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 Gyro for Azahar requires SteamDeckGyroDSU. SteamDeckGyroDSU can be installed via EmuDeck, or it can be installed manually.
 
@@ -214,7 +209,7 @@ Visit [SteamDeckGyroDSU](../../emudeck-application/steamos/emudeck-application-1
 ---
 
 ### How to Configure Gyro With External Controllers
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 #### Desktop Mode
 
@@ -277,18 +272,18 @@ To restore the default Steam Deck controls:
 ---
 
 ### How to Optimize Performance (Power Tools)
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 Visit [Power Tools](../../emudeck-application/steamos/emudeck-application-101.md#power-tools) to learn how to optimize performance using Power Tools. 
 
 ---
 
 ### How to Install Custom Textures
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 Here's how to install custom textures for Azahar:
 
-#### Azahar Configuration
+Azahar Configuration
 
 1. Open Azahar directly.
 2. Click `Emulation` in the top left. Click `Configuration`, `Graphics`, and check both `Use Custom Textures` and `Async Custom Texture Loading`
@@ -296,7 +291,7 @@ Here's how to install custom textures for Azahar:
 
 **Note:** `Preload Custom Textures` is no longer recommended. Leave `Preload Custom Textures` off
 
-#### How to Install Custom Textures
+How to Install Custom Textures
 
 **Note:** Your texture pack may already come properly named and packaged with the correct `TitleID` and texture files. You may place the included texture pack folder directly into `/home/deck/.local/share/azahar-emu/textures/` or `%APPDATA%/Roaming/EmuDeck/Emulators/Azahar\user`. You do not need the following section if this is the case.
 
@@ -317,7 +312,7 @@ Here's how to install custom textures for Azahar:
 ---
 
 ### How to Use Cheats
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 
 **Cheat Sources**
@@ -343,14 +338,14 @@ _This list is not exhaustive_
 ---
 
 ### How to Roll Back Azahar to an Older Version
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 The Appimage executable for Azahar is stored in `Home/Applications`, the Windows executable and it's associated files is stored in `%APPDATA%/Roaming/EmuDeck/Emulators/Azahar`, replace these files with the version you intend to use from the releases page: [https://github.com/azahar-emu/azahar/releases](https://github.com/azahar-emu/azahar/releases)
 
 ---
 
 ### How to Configure Language Settings
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 #### UI
 
@@ -371,12 +366,12 @@ The Appimage executable for Azahar is stored in `Home/Applications`, the Windows
 ---
 
 ## Custom Screen Layouts
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 ---
 
 ### How to Create Custom Screen Layouts.
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 * (Instructions are SteamOS/Linux only)
 
@@ -393,7 +388,7 @@ After you have created your custom layout, use the following steps to use it.
 ---
 
 ### How to Configure Bottom Screen as PiP
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 Credit: `NexLevel`
 
@@ -506,7 +501,7 @@ upright_screen\default=true
 ---
 
 ### How to Configure Bottom Screen With PiP and Opacity
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 Credit: `NexLevel`
 
@@ -622,7 +617,7 @@ upright_screen\default=true
 ---
 
 ### How to Configure Bottom Screen as PiP in the Top Right Corner
-[Back to the Top](#azahar-table-of-contents)
+[Back to the Top](#azahar-tips-and-tricks)
 
 Picture: 
 
@@ -734,21 +729,23 @@ upright_screen\default=true
 
 ---
 ### How to Set Up System Files
+[Back to the Top](#azahar-tips-and-tricks)
 
 * Do NOT share any files obtained with these steps, as it could get your system banned from Nintendo or Pretendo servers.
 * Make sure you have your Nintendo 3DS, as this process requires it.
 * To install New 3DS system software, you need to download Old 3DS software first, this is required for some situations (such as Pretendo Network), so it's best to download both.
 * The system used does not matter in this instance, you can download New 3DS software with an old 3DS, and vice versa.
 
----
+
 1. Take out your SD Card and plug it into your PC.
 
 2. Download the Azahar Setup Tool from the respective GitHub page, and place it in your cia or 3ds folder on the SD card. [https://github.com/azahar-emu/ArticSetupTool/releases](https://github.com/azahar-emu/ArticSetupTool/releases)
 
 3. Insert your SD Card back into the Nintendo 3DS and power it on, launch the Setup Tool, instructions will vary depending on your chosen file.
 
-* If you used the .3dsx, you need to launch it via the Homebrew Launcher.
-* If you used the .cia, you need to install it with FBI.
+ If you used the .3dsx, you need to launch it via the Homebrew Launcher.
+ 
+ If you used the .cia, you need to install it with FBI.
 
 4. Press A to start the setup tool, you will be given a local IP address once completed.
 
@@ -764,11 +761,12 @@ You should now have your system files ready to go.
 ---
 
 ### How to Set Up your Nintendo Network ID
+[Back to the Top](#azahar-tips-and-tricks)
 
 * Do note this process may make you unable to access certain features of Pretendo Network, such as Miiverse.
 * This process requires atleast Old 3DS system software files, if you have not already done so, you can do so with the instructions in the [How To Set Up System Files](#how-to-set-up-system-files) section.
 
----
+
 1. Download ThreeSD from the respective GitHub page and for your OS: [https://github.com/zhaowenlan1779/threeSD/releases](https://github.com/zhaowenlan1779/threeSD/releases)
 
 2. Insert your 3DS SD Card into your computer and in the dist folder of the ThreeSD zip, copy the threeSDDumper.gm9 into your gm9/scripts folder on your SD Card. Eject the SD Card and put it back into your Nintendo 3DS.
@@ -800,11 +798,12 @@ After following the prompts, you should now have access to the Nintendo EShop or
 
 ---
 ### How to Set Up Pretendo Network
+[Back to the Top](#azahar-tips-and-tricks)
 
-* This process requires both the old and New 3DS system software files, if you have not already done so, you can do so with the instructions in the [How To Set Up System Files](#how-to-set-up-system-files) tab.
-* Do note that if you have a NNID installed for usage of Pokémon Bank or the Nintendo EShop, you may not be able to use features that require an ID via Pretendo Network, which right now, is Miiverse.
+* This process requires both the old and New 3DS system software files, if you have not already done so, you can do so with the instructions in the [How To Set Up System Files](#how-to-set-up-system-files) section.
+* Do note that if you have a NNID installed for usage of Pokémon Bank or the Nintendo EShop, you may not be able to use features that require an ID via Pretendo Network, which right now, is only Miiverse.
 
----
+
 1. Download the .cia version of Nimbus from the respective GitHub page. [https://github.com/PretendoNetwork/nimbus/releases](https://github.com/PretendoNetwork/nimbus/releases)
 
 2. Launch Azahar, go to File > Open Azahar Folder, and move both the luma and 3ds folder into the sdmc folder.
