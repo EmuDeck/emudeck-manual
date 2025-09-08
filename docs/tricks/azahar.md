@@ -164,18 +164,29 @@ If you have installed your system files and have your NNID sorted, you can also 
 ### Azahar Hotkeys
 [Back to the Top](#azahar-table-of-contents)
 
-Azahar comes with a Steam Input profile for Hotkeys. When playing Azahar ROM shortcuts through Steam, the `EmuDeck - Controller Hotkeys` profile will automatically be applied so you may use the below hotkeys. For more info, see [Emulator Button Combinations Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-button-combinations-profile).
+Azahar comes with a Steam Input profile for Hotkeys. When playing Azahar ROM shortcuts through Steam, the `EmuDeck - Controller Hotkeys` profile will automatically be applied so you may use the below hotkeys.
 
-When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - Frontend Controller Hotkeys` will automatically be applied. Hold `Start` for a few seconds to switch to the action set required to use the below hotkeys. For more info, see [Emulator Frontends Button Combinations Profile](../../controls-and-hotkeys/steamos/hotkeys.md#emulator-frontends-button-combinations-profile).
+When using a frontend (ES-DE, Pegasus, or the emulator itself), the `EmuDeck - Frontend Controller Hotkeys` will automatically be applied. Hold `Start` for a few seconds to switch to the action set required to use the below hotkeys.
 
-{{ read_csv('citra-hotkeys.csv') }}
+Toggle Full Screen -	Select + R3
 
+Save State - Select + R1
 
-**Note** 
+Load State - Select + L1
 
-* For a tutorial on how to select Steam Input Profiles, refer to: [How to Select a Steam Input Profile](../../controls-and-hotkeys/steamos/hotkeys.md#how-to-select-a-steam-input-profile).
-* If you would like to use touch menus if your device supports it, apply the `EmuDeck - Steam Deck Radial Menus` profile instead.  
-* [Steam Deck Button Layout](../../controls-and-hotkeys/steamos/hotkeys.md#steam-deck-button-layout)
+Fast Forward - Select + R2
+
+Pause/Play - Select + A
+
+Reset Emulation - Select + L3
+
+Stop Emulation - Select + Start or hold L5 or hold R5
+
+Toggle Screen Layout - L4 or R4 or Start + DPad Left or Select + Y
+
+Swap Screens - L5 or R5 or Start + DPad Down or Select + X
+
+Load Amiibo - Start + DPad Right
 
 ---
 
