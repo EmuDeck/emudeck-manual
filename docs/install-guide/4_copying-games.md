@@ -18,12 +18,17 @@ Wether you picked _Easy Mode_ or _Custom Mode_ you'll see this screen asking how
             | Playstation 1 | ==Emulation/bios== |
             | Playstation 2 | ==Emulation/bios== |
             | Playstation 3 | ==Must be installed using RPCS3== |
+            | Playstation Vita | ==Must be installed using Vita3K== |
             | Nintendo Switch - Yuzu | ==Emulation/bios/yuzu/== |
             | Nintendo Switch - Ryujinx | ==Emulation/bios/Ryujinx/keys & firmware must be installed using Ryujinx== |
-            | Nintendo Switch - Citron | ==Emulation/bios/citron== |
-            | Nintendo DS | ==Emulation/bios== |
-            | Sega Dreamcast | ==Emulation/bios/dc== |
+            | Nintendo Switch - Citron | ==Emulation/bios/citron or installed using Citron== |
+            | Nintendo Switch - Eden | ==Emulation/bios/eden or installed using Eden== |
+            | Nintendo DS (Optional) | ==Emulation/bios== |
+            | Nintendo Wii U (Required if using .wud/.wux) | ==/home/deck/.local/share/Cemu/ on Linux, %USERPROFILE%\emudeck\EmulationStation-DE\Emulators\cemu on Windows== |
+            | Sega Dreamcast (Optional) | ==Emulation/bios/dc== |
             | Xbox | ==Emulation/bios== |
+            | Retroarch | ==Emulation/bios== |
+            | Philips CD-i | ==Emulation/bios/same_cdi/bios== |
 
         ??? info "ROMS folders explanation"
 
@@ -233,11 +238,17 @@ Wether you picked _Easy Mode_ or _Custom Mode_ you'll see this screen asking how
             | Playstation 1 | ==Emulation/bios== |
             | Playstation 2 | ==Emulation/bios== |
             | Playstation 3 | ==Must be installed using RPCS3== |
+            | Playstation Vita | ==Must be installed using Vita3K== |
             | Nintendo Switch - Yuzu | ==Emulation/bios/yuzu/== |
             | Nintendo Switch - Ryujinx | ==Emulation/bios/Ryujinx/keys & firmware must be installed using Ryujinx== |
-            | Nintendo Switch - Citron | ==Emulation/bios/citron== |
-            | Sega Dreamcast | ==Emulation/bios/dc== |
-            | Nintendo DS | ==Emulation/bios== |
+            | Nintendo Switch - Citron | ==Emulation/bios/citron or installed using Citron== |
+            | Nintendo Switch - Eden | ==Emulation/bios/eden or installed using Eden== |
+            | Nintendo DS (Optional) | ==Emulation/bios== |
+            | Nintendo Wii U (Required if using .wud/.wux) | ==/home/deck/.local/share/Cemu/ on Linux, %USERPROFILE%\emudeck\EmulationStation-DE\Emulators\cemu on Windows== |
+            | Sega Dreamcast (Optional) | ==Emulation/bios/dc== |
+            | Xbox | ==Emulation/bios== |
+            | Retroarch | ==Emulation/bios== |
+            | Philips CD-i | ==Emulation/bios/same_cdi/bios== |
 
 
 
